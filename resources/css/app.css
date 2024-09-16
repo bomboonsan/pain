@@ -1,0 +1,127 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+[x-cloak] {
+    display: none;
+}
+
+body {
+    font-family: "Kanit", sans-serif;
+    @apply text-[#3E3E3E];
+}
+
+.bg-level-1 {
+    @apply bg-[#aed0ca];
+}
+
+.bg-line {
+    @apply bg-[#009300];
+}
+
+.custom-stepper .active .step-number {
+    @apply bg-[#9ed0ca] text-white;
+}
+
+.page-title {
+    @apply text-3xl font-bold text-center text-[#3E3E3E];
+}
+
+.button-primary {
+    @apply bg-[#86d1c6] text-white py-2 px-4 rounded-md inline-flex justify-center items-center gap-2 min-w-[250px];
+    @apply hover:bg-[#3c9e95] active:bg-[#3c9e95] active:top-1 relative transition-all;
+}
+
+
+.markPosition {
+    content: '';
+    @apply bg-[#f5b770] hover:bg-[#ff2d20] w-[8%] h-auto aspect-square rounded-full;
+    @apply transition-all cursor-pointer;
+    @apply absolute -translate-x-1/2 -translate-y-1/2;
+}
+.position-active {
+    @apply bg-[#ff2d20];
+}
+.position-1 {
+    @apply top-[5%] left-1/2;
+}
+.position-2 {
+    @apply top-[18%] left-[32%];
+}
+.position-3 {
+    @apply top-[23%] left-1/2;
+}
+.position-4 {
+    @apply top-[18%] left-[70%];
+}
+.position-5 {
+    @apply top-[35%] left-[22%];
+}
+.position-6 {
+    @apply top-[35%] left-[81%];
+}
+.position-7 {
+    @apply top-[40%] left-[40%];
+}
+.position-8 {
+    @apply top-[40%] left-[62%];
+}
+.position-9 {
+    @apply top-[50%] left-[12%];
+}
+.position-10 {
+    @apply top-[50%] left-[90%];
+}
+.position-11 {
+    @apply top-[55%] left-[37%];
+}
+.position-12 {
+    @apply top-[55%] left-[65%];
+}
+.position-13 {
+    @apply top-[69%] left-[35%];
+}
+.position-14 {
+    @apply top-[69%] left-[66%];
+}
+.position-15 {
+    @apply top-[80%] left-[30%];
+}
+.position-16 {
+    @apply top-[80%] left-[71%];
+}
+.position-17 {
+    @apply top-[93%] left-[31%];
+}
+.position-18 {
+    @apply top-[93%] left-[69%];
+}
+
+/* <div class="bg-[#74b551]"></div>
+<div class="bg-[#7fba53]"></div>
+<div class="bg-[#98c34d]"></div>
+<div class="bg-[#c0ca43]"></div>
+<div class="bg-[#f2cb2e]"></div>
+<div class="bg-[#ebb231]"></div>
+<div class="bg-[#e19831]"></div>
+<div class="bg-[#dc802d]"></div>
+<div class="bg-[#d6682d]"></div>
+<div class="bg-[#d14c2b]"></div> */
+
+.text-level-1 { @apply text-[#74b551]; }
+.text-level-2 { @apply text-[#7fba53]; }
+.text-level-3 { @apply text-[#98c34d]; }
+.text-level-4 { @apply text-[#c0ca43]; }
+.text-level-5 { @apply text-[#f2cb2e]; }
+.text-level-6 { @apply text-[#ebb231]; }
+.text-level-7 { @apply text-[#e19831]; }
+.text-level-8 { @apply text-[#dc802d]; }
+.text-level-9 { @apply text-[#d6682d]; }
+.text-level-10 { @apply text-[#d14c2b]; }
+
+.dashboard-title {
+    @apply text-3xl font-bold text-white mb-5  drop-shadow-md;
+}

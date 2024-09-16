@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.markPosition {
+    content: '';
+    @apply bg-[#f5b770] w-[10px] h-[10px];
+}
+.position-1 {
+    @apply absolute -translate-x-1/2 -translate-y-1/2;
+    @apply left-1/2 top-1/2;
+}
